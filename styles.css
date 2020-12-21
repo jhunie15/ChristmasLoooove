@@ -6,7 +6,7 @@ body{
 
 h1{
   font-size: 5rem;
-  margin: 20px;
+  margin: 15px;
   animation: color-change 1s infinite;
 }
 
@@ -16,10 +16,10 @@ h1{
   border-color: red;
   border: dotted 3px;
   animation: change-color 0.5s infinite;
-  margin-left: 30px;
+  margin-left: 100px;
 }
 #pictureCarousel{
-  margin: 100px;
+  margin: 50px;
   text-align: left;
 }
 #christmasCarousel{
