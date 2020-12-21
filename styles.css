@@ -1,7 +1,12 @@
 body{
   font-family: 'Mountains of Christmas', cursive;
-  background-image: url("images/c2.jpg");
   text-align: center;
+  background-color: #a20a0a;
+  border: 0;
+}
+
+.head{
+  background-image: url("images/c2.jpg");
 }
 
 h1{
@@ -26,6 +31,9 @@ h1{
   border: dotted 3px;
   animation: change-color 0.5s infinite;
   margin: 150px;
+}
+.carousel-control-next{
+  margin-right: 665px;
 }
 
 #pictureCarousel{
