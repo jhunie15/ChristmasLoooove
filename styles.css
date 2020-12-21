@@ -1,0 +1,49 @@
+body{
+  font-family: 'Mountains of Christmas', cursive;
+  background-image: url("images/c2.jpg");
+  text-align: center;
+}
+
+h1{
+  font-size: 5rem;
+  margin: 20px;
+  animation: color-change 1s infinite;
+}
+
+.our-image{
+  width: 300px;
+  border-radius: 20%;
+  border-color: red;
+  border: dotted 3px;
+  animation: change-color 0.5s infinite;
+  margin-left: 30px;
+}
+#pictureCarousel{
+  margin: 100px;
+  text-align: left;
+}
+#christmasCarousel{
+}
+.christmas-image {
+  width: 500px;
+  border-radius: 20%;
+  border-color: red;
+  border: dotted 3px;
+  animation: change-color 0.5s infinite;
+  margin: 150px;
+}
+#lights{
+  background-image: url("images/c1.jpg");
+}
+/* color change */
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: green; }
+}
+
+@keyframes change-color {
+  0% { color: green; }
+  50% { color: white; }
+  100% { color: gold; }
+}
