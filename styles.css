@@ -18,12 +18,7 @@ h1{
   animation: change-color 0.5s infinite;
   margin-left: 100px;
 }
-#pictureCarousel{
-  margin: 80px;
-  text-align: left;
-}
-#christmasCarousel{
-}
+
 .christmas-image {
   width: 500px;
   border-radius: 20%;
@@ -32,6 +27,12 @@ h1{
   animation: change-color 0.5s infinite;
   margin: 150px;
 }
+
+#pictureCarousel{
+  margin: 80px;
+  text-align: left;
+}
+
 #lights{
   background-image: url("images/c1.jpg");
 }
