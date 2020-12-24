@@ -1,7 +1,7 @@
 var started = false;
 
 function christmasSong(){
-var audio = new Audio("sounds/christmas.mp3");
+var audio = new Audio("christmas.mp3");
 audio.play();
 }
 
