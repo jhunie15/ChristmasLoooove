@@ -10,6 +10,10 @@ h1{
   margin: 15px;
 }
 
+p{
+  font-size: 5rem;
+}
+
 .our-image{
   width: 300px;
   margin-left: 100px;
