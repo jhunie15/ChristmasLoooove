@@ -7,9 +7,9 @@ audio.play();
 
 $(document).click(function(){
   if(!started){
-
-    animatePress();
+    
     christmasSong();
+    animatePress();    
 
     started = true;
   }
