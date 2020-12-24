@@ -2,37 +2,28 @@ body{
   font-family: 'Mountains of Christmas', cursive;
   text-align: center;
   background-color: #a20a0a;
-  border: 0;
+
+  border-radius: 3%;
 }
 
-.head{
-  background-image: url("images/c2.jpg");
-}
 
 h1{
   font-size: 5rem;
   margin: 15px;
-  animation: color-change 1s infinite;
 }
 
 .our-image{
   width: 300px;
   border-radius: 20%;
-  border-color: red;
-  border: dotted 3px;
-  animation: change-color 0.5s infinite;
   margin-left: 100px;
-  margin-bottom: 50px;
 }
 
 .christmas-image {
   width: 500px;
   border-radius: 20%;
-  border-color: red;
-  border: dotted 3px;
-  animation: change-color 0.5s infinite;
   margin: 150px;
 }
+
 .carousel-control-next{
   margin-right: 665px;
 }
@@ -42,9 +33,30 @@ h1{
   text-align: left;
 }
 
+#head{
+  background-image: url("images/c2.jpg");
+  margin: 70px 70px 0;
+  border-radius: 3%;
+}
+
 #lights{
   background-image: url("images/c1.jpg");
+  margin: 70px 70px 0;
+  border-radius: 3%;
 }
+
+.head-lights{
+    animation: color-change 0.75s infinite;
+}
+.image-lights{
+  animation: change 0.5s infinite;
+  border: dotted 5px;
+}
+.body-lights{
+  animation: change2 0.5s infinite;
+  border: dotted 10px;
+}
+
 /* color change */
 @keyframes color-change {
   0% { color: red; }
@@ -52,8 +64,14 @@ h1{
   100% { color: green; }
 }
 
-@keyframes change-color {
-  0% { color: green; }
+@keyframes change{
+  0% { color: orange; }
   50% { color: white; }
-  100% { color: gold; }
+  100% { color: green; }
+}
+
+@keyframes change2{
+  0% { color: aqua; }
+  50% { color: white; }
+  100% { color: yellow; }
 }
